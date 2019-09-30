@@ -1,2 +1,1 @@
-# vedantham-lab.github.io
-Lab Website
+# Vedantham Lab Website Code
