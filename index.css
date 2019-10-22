@@ -57,13 +57,13 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 /* hover stuff for projects */
 .img__wrap {
   position: relative;
-  height: 250px;
+  height: 268px;
   width: 100%;
 }
 
-.img__description {
+.img__green {
   position: absolute;
-  top: 0;
+  top: -18px;
   bottom: 0;
   left: 0;
   right: 0;
@@ -76,7 +76,67 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
   transition: opacity .2s, visibility .2s;
 }
 
-.img__wrap:hover .img__description {
+.img__red {
+  position: absolute;
+  top: -18px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(223, 97, 74, 0.884);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.img__blue {
+  position: absolute;
+  top: -18px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(116, 165, 255, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.img__pink {
+  position: absolute;
+  top: -18px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(248, 189, 233, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.img__wrap:hover .img__green {
+  visibility: visible;
+  opacity: 1;
+}
+
+.img__wrap:hover .img__red {
+  visibility: visible;
+  opacity: 1;
+}
+
+.img__wrap:hover .img__blue {
+  visibility: visible;
+  opacity: 1;
+}
+
+.img__wrap:hover .img__pink {
   visibility: visible;
   opacity: 1;
 }
@@ -151,8 +211,8 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
     position: absolute;
     bottom: 50%;
     right: 1.5%;
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -245,7 +305,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .display-middle{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
 .display-left{position:absolute;top:50%;left:0%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%)}
 .display-right{position:absolute;top:50%;right:0%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%)}
-.display-topmiddle{position:absolute;left:50%;top:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
+.display-topmiddle{position:absolute;left:50%;top:20%;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
 .display-bottommiddle{position:absolute;left:50%;bottom:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
 .display-container:hover .display-hover{display:block}.display-container:hover span.display-hover{display:inline-block}.display-hover{display:none}
 .display-position{position:absolute}

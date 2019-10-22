@@ -15,44 +15,54 @@
 <body>
 
 
-<!-- Navbar (sit on top) -->
-<div class="top">
-  <div class="head-bar white wide padding">
-      <div class="bar-item dropdown mobileshow" id='content-mobile'>
-          <button class="dropbtn">
-            <i class="fas fa-bars"></i>
-          </button>
-          <div class="dropdown-content">
-            <a href="#projects">Projects</a>
-            <a href="/members.html">Members</a>
-            <a href="#contact">Contact</a>
-            <a href="/publications.html">Publications</a>
+    <!-- Navbar (sit on top) -->
+    <div class="top">
+        <div class="head-bar white wide padding">
+            <div class="bar-item dropdown mobileshow" id='content-mobile'>
+                <button class="dropbtn">
+                  <i class="fas fa-bars"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="/projects.html">Projects</a>
+                  <a href="members.html">The Team</a>
+                  <a href='/publications.html'>Publications</a>
+                  <a href="/index.html#contact">Contact</a>
+                </div>
+            </div>
+          <a href="/index.html#home" class="bar-item button">Vedantham Lab @ UCSF</a>
+          <!-- Float links to the right. Hide them on small screens -->
+          <div class="right hide-small">
+            <a href="/projects.html" class="bar-item button">Projects</a>
+            <a href="/members.html" class="bar-item button">The Team</a>
+            <a href="/publications.html" class="bar-item button">Publications</a>
+            <a href="/index.html#contact" class="bar-item button">Contact</a>
           </div>
+        </div>
       </div>
-    <a href="#home" class="bar-item button">Vedantham Lab</a>
-    <!-- Float links to the right. Hide them on small screens -->
-    <div class="right hide-small">
-      <a href="#projects" class="bar-item button">Projects</a>
-      <a href="#members" class="bar-item button">Members</a>
-      <a href="#contact" class="bar-item button">Contact</a>
-      <a href="/publications.html" class="bar-item button">Publications</a>
-    </div>
-  </div>
-</div>
 
 <!-- Header -->
 <header class="display-container content wide" style="max-width:100%" id="home">
     <img class="image" src="/images/Isl1_Hcn4_SAN.jpg" alt="Vedantham Lab">
-    <div class="text-block">
-      <h1 class="xxlarge"><span class="padding opacity-min"><b>Welcome!</b></span></h1> 
-      <p><span class="text-dark-grey">The Vedantham Lab studies the development and</span></p>
-      <p><span class="text-dark-grey">evolution of pacemaking in the sino-atrial node.</span></p>
+    <div class="display-topmiddle center">
+      <h1 class="xxlarge">
+        <span class="text-white">
+          <b>Biogenesis Of Heart Rhythm – Development, Physiology, Disease, Regeneration</b>
+        </span>
+      </h1>
     </div>
   </header>
   
   <!-- Page content -->
   <div class="content padding" style="max-width:1564px">
   
+    <div class="container padding-24" id="about">
+        <h3 class="padding-16">Welcome!</h3>
+        <p>Over a typical human lifespan, the heart beats over 2 billion times. Every normal heartbeat originates as an electrical signal generated in the sinoatrial node (SAN), the heart’s natural pacemaker, and is then transmitted to the rest of the heart. Our scientific goals are to understand the molecular, cellular, and developmental basis for the initiation of the heartbeat in specialized cardiac pacemaker cells within the SAN, and to understand how the SAN functions to regulate cardiac output dynamically in the context of the normal, aged, and diseased heart. Our ultimate aim is to leverage our scientific discoveries to restore normal heart rhythm to patients suffering from slow heartbeat, irregular heartbeat (atrial fibrillation), and cardiac arrest.  </p>
+
+        <p>Our interdisciplinary team uses several complementary approaches to advance our mission, including whole animal, ex-vivo, and cellular electrophysiology in mouse models, developmental biology and genomics in genetically modified mice and zebrafish, studies in human induced pluripotent (iPS) stem cell-derived heart cells, and human genetics and bioinformatics. </p>
+          
+        <p>Click on the links below to learn more about specific project areas.</p>
+    </div>
     <!-- Project Section -->
     <div class="container padding-24" id="projects">
       <h3 class="border-bottom border-light-grey padding-16">Projects</h3>
@@ -62,24 +72,27 @@
       <div class="col m6 margin-bottom">
         <div class="display-container img__wrap">
           <img class="small-image" src="/images/heart.jpg" alt="heart" style="width:100%;height:250px">
-          <p class="img__description">Physiology</p>
+          <p class="img__green"></p>
         </div>
       </div>
       <div class="col m6 margin-bottom">
-        <div class="display-container">
+        <div class="display-container img__wrap">
           <img class="small-image" src="/images/evol.jpg" alt="House" style="width:100%;height:250px">
+          <p class="img__red"></p>
         </div>
       </div>
     </div>
     <div class="row-padding">
       <div class="col m6 margin-bottom">
-        <div class="display-container">
+        <div class="display-container img__wrap">
           <img class="small-image" src="/images/devel.jpg" alt="House" style="width:100%;height:250px">
+          <p class="img__pink"></p>
         </div>
       </div>
       <div class="col 13 m6 margin-bottom">
-        <div class="display-container">
+        <div class="display-container img__wrap">
           <img class="small-image" src="/images/patient.jpg" alt="House" style="width:100%;height:250px">
+          <p class="img__blue"></p>
         </div>
       </div>
     </div> 
@@ -91,37 +104,37 @@
 
     <div class="scrollmenu row-padding grayscale">
       <div class="13 m6 margin-bottom margin-right slide">
-        <img src="http://placehold.it/250x250"/ alt="Vasanth" style="width:250px;height:250px">
+        <img src="images/vedantham.jpg"/ alt="Vasanth" style="width:250px;height:250px">
         <h3 class="center">Vasanth Vedantham</h3>
         <p class="opacity center">Principal Investigator</p>
         
       </div>
       <div class="13 m6 margin-bottom margin-right slide">
-          <img src="http://placehold.it/250x250"/ alt="Giselle" style="width:250px;height:250px">
+          <img src="images/galang.jpg"/ alt="Giselle" style="width:250px;height:250px">
           <h3 class="center">Giselle Galang</h3>
           <p class="opacity center">Lab Manager</p>
           
         </div>
       <div class="13 m6 margin-bottom margin-right slide">
-        <img src="images/hongmei.jpg"/ alt="Hongmei" style="width:250px;height:250px">
+        <img src="images/hongmei.png"/ alt="Hongmei" style="width:250px;height:250px">
         <h3 class="center">Hongmei Ruan</h3>
         <p class="opacity center">Specialist</p>
         
       </div>
       <div class="13 m6 margin-bottom margin-right slide">
-          <img src="images/prasanna.jpg"/ alt="Prasanna" style="width:250px;height:250px">
+          <img src="images/prasanna.png"/ alt="Prasanna" style="width:250px;height:250px">
           <h3 class="center">Prasanna Allu</h3>
           <p class="opacity center">Post-Doc</p>
           
         </div>
       <div class="13 m6 margin-bottom margin-right slide">
-        <img src="images/ravi.jpg"/ alt="Ravi" style="width:250px;height:250px">
+        <img src="images/ravi.png"/ alt="Ravi" style="width:250px;height:250px">
         <h3 class="center">Ravi Mandla</h3>
         <p class="opacity center">Junior Specialist</p>
         
       </div>
       <div class="13 m6 margin-bottom margin-right slide">
-          <img src="http://placehold.it/250x250"/ alt="Catherine" style="width:250px;height:250px">
+          <img src="images/catherine.jpg"/ alt="Catherine" style="width:250px;height:250px">
           <h3 class="center">Catherine Jung</h3>
           <p class="opacity center">Undergraduate</p>
           
@@ -132,11 +145,22 @@
     <div class="container padding-32" id="contact">
       <h3 class="border-bottom border-light-grey padding-16">Contact</h3>
     </div>
-    <div class="mapouter center margin-bottom">
+    <div>
+      <h4>Plasmids, Protocols, and Reagents</h4>
+      <p>We are happy to share any protocols, reagents or published mouse models that were generated in the lab. For plasmids and protocols, please contact the lab manager, Giselle Galang at giselle.galang@ucsf.edu. For mouse requests, please contact Vasanth directly at vasanth.vedantham@ucsf.edu. Please include “Reagent Request” in subject heading.</p>
+    </div>
+    <div class="mapouter center margin-bottom padding-16">
       <div class="gmap_canvas">
         <iframe width="100%" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=555%20mission%20bay%20blvd%20south&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"></iframe>
       </div>
     </div>
+    <div class="center">
+      <p>Smith Cardiovascular Research Building</p>
+      <p>555 Mission Bay Blvd South, Room 314</p>
+      <p>San Francisco, CA 94158</p>
+      <p>Lab Phone: 415-502-3743</p>
+    </div>
+
 
   <!-- End page content -->
   </div>
