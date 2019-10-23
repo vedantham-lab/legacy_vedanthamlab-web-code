@@ -121,8 +121,8 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
   transition: opacity .2s, visibility .2s;
 }
 
-.Development{
-  background-color: red;
+.projbut{
+  background-color: rgb(119, 119, 119);
   text-align: center;
   vertical-align: middle;
   position:absolute;
