@@ -121,6 +121,27 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
   transition: opacity .2s, visibility .2s;
 }
 
+.Development{
+  background-color: red;
+  text-align: center;
+  vertical-align: middle;
+  position:absolute;
+}
+.Physiology{
+  background-color: rgb(87, 54, 236);
+}
+.Regeneration{
+  background-color: rgb(54, 133, 51);
+}
+.Disease{
+  background-color: rgb(197, 121, 184);
+}
+.proj_text{
+  position: absolute;
+  top:50%;
+  left:50%;
+}
+
 .img__wrap:hover .img__green {
   visibility: visible;
   opacity: 1;
@@ -139,6 +160,17 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .img__wrap:hover .img__pink {
   visibility: visible;
   opacity: 1;
+}
+
+.projtext {
+  text-align: justify;
+  font-size: 4.3vw;
+}
+
+.projtext:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
 }
 
  /* Navbar container */
