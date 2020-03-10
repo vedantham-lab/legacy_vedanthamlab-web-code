@@ -34,6 +34,20 @@
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
+.jumbotron {
+  color: white;
+  background-image: url("https://raw.githubusercontent.com/vedantham-lab/vedantham-lab.github.io/master/images/Isl1_Hcn4_SAN.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 85vh;
+}
+
+.morespace {
+  padding-left: 7rem;
+  padding-right: 7rem;
+  padding-top: 400px;
+}
 
 *,
 *::before,
@@ -5242,7 +5256,6 @@ a.badge-dark:focus, a.badge-dark.focus {
 
 .jumbotron {
   padding: 2rem 1rem;
-  margin-bottom: 2rem;
   background-color: #e9ecef;
   border-radius: 0.3rem;
 }
@@ -6763,7 +6776,11 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #343a40 !important;
+  background-color: #545454 !important;
+}
+
+.bg-darker {
+  background-color: #060000 !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
