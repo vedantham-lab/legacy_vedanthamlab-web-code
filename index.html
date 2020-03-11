@@ -17,22 +17,30 @@
 
     <!-- Navbar (sit on top) -->
     <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-darker">
-      <a class="navbar-brand text-light" href="index.html">Vedantham Lab</a>
+      <a class="navbar-brand text-light" href="index.html">
+        <h3>Vedantham Lab</h3>
+      </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
     
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link text-light" href="#">Home <span class="sr-only">(current)</span></a>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="/members.html">Members</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light" href="#">Link</a>
+            <a class="nav-link text-light" href="#">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#contact">Contact</a>
           </li>
         </ul>
       <span>
-        <a class="text-light">UCSF</a>
+        <h5 class="text-light">UCSF</h5>
       </span>
 
       </div>
@@ -40,71 +48,89 @@
   
 
     <div class="jumbotron jumbotron-fluid">
-      <div class="row h-100">
+      <div class="row h-100 w-100">
         <div class="col-sm-12 my-auto">
           <h1 class="display-2 text-center mx-auto">Biogenesis of Heart Rhythm</h1>
           <!--<p class="h2 text-center mx-auto">Development, Physiology, Disease, Regeneration</p>-->
         </div>
       </div>
     </div>
-    <div class="bg-darker row col-form-label-lg text-light morespace">
-        <h3 class="padding-16">Welcome!</h3>
-        <p>Over a typical human lifespan, the heart beats over 2 billion times. Every normal heartbeat originates as an electrical signal generated in the sinoatrial node (SAN), the heart’s natural pacemaker, and is then transmitted to the rest of the heart. Our scientific goals are to understand the molecular, cellular, and developmental basis for the initiation of the heartbeat in specialized cardiac pacemaker cells within the SAN, and to understand how the SAN functions to regulate cardiac output dynamically in the context of the normal, aged, and diseased heart. Our ultimate aim is to leverage our scientific discoveries to restore normal heart rhythm to patients suffering from slow heartbeat, irregular heartbeat (atrial fibrillation), and cardiac arrest.  </p>
 
-        <p>Our interdisciplinary team uses several complementary approaches to advance our mission, including whole animal, ex-vivo, and cellular electrophysiology in mouse models, developmental biology and genomics in genetically modified mice and zebrafish, studies in human induced pluripotent (iPS) stem cell-derived heart cells, and human genetics and bioinformatics. </p>
+      <div class="row w-100 text-light">
+        <div class="col-1 bg-darker"></div>
+        <div class="col-3 py-sm-5 bg-darker">
+          <img src="images/heart.jpg" class="img-fluid mx-auto d-block" style="width:60%">
+        </div>
+        <div class="col py-sm-5 bg-darker">
+          <h3>Welcome!</h3>
+          <p>Over a typical human lifespan, the heart beats over 2 billion times. Every normal heartbeat originates as an electrical signal generated in the sinoatrial node (SAN), the heart’s natural pacemaker, and is then transmitted to the rest of the heart. Our scientific goals are to understand the molecular, cellular, and developmental basis for the initiation of the heartbeat in specialized cardiac pacemaker cells within the SAN, and to understand how the SAN functions to regulate cardiac output dynamically in the context of the normal, aged, and diseased heart. Our ultimate aim is to leverage our scientific discoveries to restore normal heart rhythm to patients suffering from slow heartbeat, irregular heartbeat (atrial fibrillation), and cardiac arrest.  </p>
+
+          <p>Our interdisciplinary team uses several complementary approaches to advance our mission, including whole animal, ex-vivo, and cellular electrophysiology in mouse models, developmental biology and genomics in genetically modified mice and zebrafish, studies in human induced pluripotent (iPS) stem cell-derived heart cells, and human genetics and bioinformatics. </p>
           
-        <p>Click on the links below to learn more about specific project areas.</p>
-    </div>
+          <p>Click on the links below to learn more about specific project areas.</p>
+        </div>
+        <div class="col-1 bg-darker"></div>
+      </div>
+
+      <div class="row bg-darker w-100">
+        <div class="col-1"></div>
+        <div class="col-5 py-sm-4 pr-sm-5">
+          <a href="/projects.html#Development" role="button" class="py-sm-5 btn btn-secondary btn-block">
+            <h2>Development</h2>
+          </a>
+        </div>
+        <div class="col-5 py-sm-4">
+          <a href="/projects.html#Physiology" role="button" class="py-sm-5 btn btn-light2 btn-block">
+            <h2>Physiology</h2>
+          </a>
+        </div>
+      </div>
+      <div class="row pb-sm-5 bg-darker" style="width:100%">
+        <div class="col-1"></div>
+        <div class="col-5 py-sm-4 pr-sm-5">
+          <a href="/projects.html#Disease" role="button" class="py-sm-5 btn btn-light btn-block">
+            <h2>Disease</h2>
+          </a>
+        </div>
+        <div class="col-5 py-sm-4">
+          <a href="/projects.html#Regeneration" role="button" class="py-sm-5 btn btn-secondary2 btn-block">
+            <h2>Regeneration</h2>
+          </a>
+        </div>
+      </div>
+
+      <div class="row w-100 bg-dark text-light" id="contact">
+        <div class="col-1"></div>
+        <div class="col py-sm-5">
+          <h3>Plasmids, Protocols, and Reagents</h3>
+      <p>We are happy to share any protocols, reagents or published mouse models that were generated in the lab. For plasmids and protocols, please contact the lab manager, Giselle Galang at giselle.galang@ucsf.edu. For mouse requests, please contact Vasanth directly at vasanth.vedantham@ucsf.edu. Please include “Reagent Request” in subject heading.</p>
+        </div>
+        <div class="col-1"></div>
+      </div>
+      <div class="row w-100 bg-dark text-light">
+        <div class="col-1 bg-dark"></div>
+        <div class="col-3 text-center my-auto py-sm-5">
+          <h5>Smith Cardiovascular Research Building</h5>
+          <h5>555 Mission Bay Blvd South, Room 314</h5>
+          <h5>San Francisco, CA 94158</h5>
+          <h5>Lab Phone: 415-502-3743</h5>
+        </div>
+        <div class="col bg-dark">
+          <div class="mapouter">
+            <div class="gmap_canvas">
+              <iframe width="100%" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=555%20mission%20bay%20blvd%20south&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"></iframe>
+            </div>
+          </div>
+        </div>
+        <div class="col-1 bg-dark"></div>
+      </div>
+      <div class="row w-100 bg-dark py-sm-5 text-light"></div>
+      
+
   </body>
 </html>
 
 <!-- Header
-  
-   Page content 
-  <div class="content padding" style="max-width:1564px">
-  
-    <div class="container padding-24" id="about">
-        <h3 class="padding-16">Welcome!</h3>
-        <p>Over a typical human lifespan, the heart beats over 2 billion times. Every normal heartbeat originates as an electrical signal generated in the sinoatrial node (SAN), the heart’s natural pacemaker, and is then transmitted to the rest of the heart. Our scientific goals are to understand the molecular, cellular, and developmental basis for the initiation of the heartbeat in specialized cardiac pacemaker cells within the SAN, and to understand how the SAN functions to regulate cardiac output dynamically in the context of the normal, aged, and diseased heart. Our ultimate aim is to leverage our scientific discoveries to restore normal heart rhythm to patients suffering from slow heartbeat, irregular heartbeat (atrial fibrillation), and cardiac arrest.  </p>
-
-        <p>Our interdisciplinary team uses several complementary approaches to advance our mission, including whole animal, ex-vivo, and cellular electrophysiology in mouse models, developmental biology and genomics in genetically modified mice and zebrafish, studies in human induced pluripotent (iPS) stem cell-derived heart cells, and human genetics and bioinformatics. </p>
-          
-        <p>Click on the links below to learn more about specific project areas.</p>
-    </div>
-     Project Section 
-    <div class="container padding-24" id="projects">
-      <h3 class="border-bottom border-light-grey padding-16">Projects</h3>
-    </div>
-  
-    <div class="row-padding">
-      <div class="col m6 margin-bottom">
-        <div class="display-container img__wrap">
-          <div class="projbut projtext center" style="width:100%;height:250px">
-            <p>Development</p></div>
-          <a href="/projects.html#Development" class="img__green button" style="width:100%;height:250px"></a>
-        </div>
-      </div>
-      <div class="col m6 margin-bottom">
-        <div class="display-container img__wrap">
-            <div class="projbut projtext center" style="width:100%;height:250px"><p>Physiology</p></div>
-            <a href="/projects.html#Physiology" class="img__red button center" style="width:100%;height:250px"></a>
-        </div>
-      </div>
-    </div>
-    <div class="row-padding">
-      <div class="col m6 margin-bottom">
-        <div class="display-container img__wrap">
-            <div class="projbut projtext center" style="width:100%;height:250px"><p>Disease</p></div>
-            <a href="/projects.html#Disease" class="img__pink button center" style="width:100%;height:250px"></a>
-        </div>
-      </div>
-      <div class="col 13 m6 margin-bottom">
-        <div class="display-container img__wrap">
-            <div class="projbut projtext center" style="width:100%;height:250px"><p>Regeneration</p></div>
-            <a href="/projects.html#Regeneration" class="img__blue button center" style="width:100%;height:250px"></a>
-        </div>
-      </div>
-    </div> 
   
    
      Contact Section
