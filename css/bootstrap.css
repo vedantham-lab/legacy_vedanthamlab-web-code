@@ -6854,6 +6854,10 @@ button.bg-danger:focus {
   background-color: #f8f9fa !important;
 }
 
+.bg-lightish {
+  background-color: #e3e3e4 !important;
+}
+
 a.bg-light:hover, a.bg-light:focus,
 button.bg-light:hover,
 button.bg-light:focus {
@@ -6864,8 +6868,24 @@ button.bg-light:focus {
   background-color: #6C757D !important;
 }
 
+.bg-dark2 {
+  background-color: rgb(85, 92, 99) !important;
+}
+
 .bg-darkish {
   background-color: rgb(186, 189, 192) !important;
+}
+.bg-darkish2 {
+  background-color: rgb(161, 162, 163) !important;
+}
+
+.bg-almdark {
+  background-color: #868D92 !important;
+}
+
+
+.bg-almblack {
+  background-color: #2b2b2b !important;
 }
 
 .bg-darker {

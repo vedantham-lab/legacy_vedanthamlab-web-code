@@ -3,93 +3,190 @@
 <title>Vedantham Lab | Meet the Team</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="css/bootstrap.css">
 
 <head>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://kit.fontawesome.com/b8ad6a2c89.js" crossorigin="anonymous"></script>
-  <script src="index.js"></script>
 </head>
 
 <body>
 
 
     <!-- Navbar (sit on top) -->
-    <div class="top">
-        <div class="head-bar white wide padding">
-            <div class="bar-item dropdown mobileshow" id='content-mobile'>
-                <button class="dropbtn">
-                  <i class="fas fa-bars"></i>
-                </button>
-                <div class="dropdown-content">
-                  <a href="/projects.html">Projects</a>
-                  <a href="members.html">Meet the Team</a>
-                  <a href='/publications.html'>Publications</a>
-                  <a href="/index.html#contact">Contact</a>
-                </div>
-            </div>
-          <a href="/index.html#home" class="bar-item button">Vedantham Lab @ UCSF</a>
-          <!-- Float links to the right. Hide them on small screens -->
-          <div class="right hide-small">
-            <a href="/projects.html" class="bar-item button">Projects</a>
-            <a href="/members.html" class="bar-item button">Meet the Team</a>
-            <a href="/publications.html" class="bar-item button">Publications</a>
-            <a href="/index.html#contact" class="bar-item button">Contact</a>
-          </div>
-        </div>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-darker">
+      <a class="navbar-brand text-light" href="index.html">
+        <h3>Vedantham Lab</h3>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link text-light" href="/members.html">Members</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="/index.html#contact">Contact</a>
+          </li>
+        </ul>
+      <span>
+        <h5 class="text-light">UCSF</h5>
+      </span>
+
       </div>
+    </nav>
 
 
-<!-- Header -->
-<header class="display-container content wide" style="max-width:100%" id="home">
-    <img class="image" src="/images/TheTeam_Draft1.jpg" alt="Vedantham Lab">
-  </header>
-  
-  <!-- Page content -->
-  <div class="content padding" style="max-width:1564px">
 
-    <div class="container padding-24">
-        <h3></h3>
-    </div>
-  
-  
-    <!-- Members -->
+  <div>
+    <img class="image" src="/images/TheTeam_Draft1.jpg" style="width:100%" alt="Vedantham Lab">
+  </div>
 
-    <div class="row-padding">
-      <div class="col m3 margin-bottom">
-        <img src="images/vedantham.jpg"/ alt="Vasanth" style="width:250px;height:250px">
+    <div class="row w-100 bg-light">
+      <div class="col-1"></div>
+      <div class="col-3 py-sm-5 d-flex flex-wrap align-items-center">
+        <img src="images/vedantham.jpg" class="mx-auto img-fluid" alt="Vasanth" style="width:250px;height:250px">
       </div>
-      <div class="col m9 margin-bottom">
-        <h3>Vasanth Vedantham</h3>
+      <div class="col py-sm-5">
+        <h3 class="pb-sm-2">Vasanth Vedantham</h3>
         <h4>Principal Investigator</h4>
         <p>Vasanth received undergraduate degrees from Yale University in physics and biochemistry, an MD from the Harvard-MIT Health Sciences and Technology Program, and a PhD from the Program in Neuroscience at Harvard University. His dissertation research in the lab of Stephen Cannon used chemical modification and electrophysiological recording to define structure-function relationships that govern gating, pharmacology, and toxin binding in voltage-gated sodium channels. After completing clinical training in internal medicine, cardiology, and cardiac electrophysiology, his postdoctoral work in the lab of Deepak Srivastava at the Gladstone Institute of Cardiovascular Disease explored transcriptional networks in the cardiac conduction system.</p>
         <p>In 2010, Vasanth joined the faculty at UCSF as a cardiac electrophysiologist with a mentored basic research position at Gladstone as a K08 awardee in Deepak Srivastava’s Lab.</p>
         <p>In 2017, Vasanth started his independent lab within the Cardiovascular Research Institute at UCSF. The lab is exploring development, physiology, and evolution of heart rhythm from a multidisciplinary perspective, with the ultimate aim of developing novel therapies for arrhythmias that are grounded in science and informed by clinical need. </p>
         <p>Vasanth is also a practicing clinical cardiac electrophysiologist at UCSF with particular interests in inherited arrhythmia syndromes and arrhythmogenic cardiomyopathies, especially cardiac sarcoidosis.</p>
+      </div>
+      <div class="col-1"></div>
+    </div>
 
+    <div class="row w-100 bg-lightish">
+      <div class="col-1"></div>
+      <div class="col-3 py-sm-5 d-flex flex-wrap align-items-center">
+        <img src="images/galang.jpg" class="mx-auto img-fluid" alt="Giselle" style="width:250px;height:250px">
       </div>
-    </div>
-    <div class="row-padding">
-      <div class="col m3 margin-bottom">
-        <img src="images/galang.jpg"/ alt="Giselle" style="width:250px;height:250px">
-      </div>
-      <div class="col m9 margin-bottom">
-        <h3>Giselle Galang</h3>
+      <div class="col py-sm-5">
+        <h3 class="pb-sm-2">Giselle Galang</h3>
         <h4>Lab Manager</h4>
-        <p>Giselle received her undergraduate degree in microbiology, immunology and molecular genetics from UCLA. She has previously worked in cardiovascular research in the labs of Dr. Kenneth Philipson at UCLA and Dr. Eduardo Marban at Cedars-Sinai. Since 2012, she has been working with Dr. Vedantham and has been the lab manager since 2017.</p>
+          <p>Giselle received her undergraduate degree in microbiology, immunology and molecular genetics from UCLA. She has previously worked in cardiovascular research in the labs of Dr. Kenneth Philipson at UCLA and Dr. Eduardo Marban at Cedars-Sinai. Since 2012, she has been working with Dr. Vedantham and has been the lab manager since 2017.</p>
+      </div>
+      <div class="col-1"></div>
+    </div>
+
+    <div class="row w-100 bg-darkish">
+      <div class="col-1"></div>
+      <div class="col-3 py-sm-5 d-flex flex-wrap align-items-center">
+        <img src="images/hongmei.png" class="mx-auto img-fluid" alt="Hongmei" style="width:250px;height:250px">
+      </div>
+      <div class="col py-sm-5">
+        <h3 class="pb-sm-2">Hongmei Ruan</h3>
+        <h4>Researcher</h4>
+          <p>Hongmei received an MD from North-China Coal Medical College, followed by an MS in Cardiovascular Physiology and a PhD in Cardiovascular Pharmacology at Zhongshan University in China. Over the past 30 years, her research has been focused on cardiomyocyte biology and physiology in heart disease, with particular emphasis on cardiac electrophysiology and arrhythmias. She worked as a postdoctoral fellow with Dr. Yibin Wang at UCLA, and later joined the group as a research scientist. She is a past recipient of an AHA postdoctoral fellowship and scientist development grant during her time at UCLA. Hongmei joined the lab in 2017, and (among other projects) currently leads our efforts in whole animal and cellular electrophysiology, including whole cell patch clamp of isolated cardiac pacemaker cells, ex-vivo electrophysiology studies in isolated mouse hearts, and surgical implantation of transmitters for in-vivo electrocardiography. </p>
+      </div>
+      <div class="col-1"></div>
+    </div>
+
+    <div class="row w-100 bg-darkish2">
+      <div class="col-1"></div>
+      <div class="col-3 py-sm-5 d-flex flex-wrap align-items-center">
+        <img src="images/ravi.png" class="mx-auto img-fluid" alt="Ravi" style="width:250px;height:250px">
+      </div>
+      <div class="col py-sm-5">
+        <h3 class="pb-sm-2">Ravi Mandla</h3>
+        <h4>Junior Specialist</h4>
+        <p>Ravi received an undergraduate degree from UC Berkeley in Molecular and Cell Biology and Education. He currently works on better understanding the epigenetic regulations involved in the development of pacemaker cells, using both computational and molecular biology techniques to do so. He is also interested in better understanding how these regulatory pathways have changed throughout evolution, and how these changes can be translated into better patient therapies.</p>
+      </div>
+      <div class="col-1"></div>
+    </div>
+
+    <div class="row w-100 bg-almdark">
+      <div class="col-1"></div>
+      <div class="col-3 py-sm-5 d-flex flex-wrap align-items-center">
+        <img src="images/catherine.jpg" class="mx-auto img-fluid" alt="Catherine" style="width:250px;height:250px">
+      </div>
+      <div class="col py-sm-5">
+        <h3 class="pb-sm-2">Catherine Jung</h3>
+        <h4>Junior Specialist</h4>
+        <p>Catherine graduated from UC Berkeley with a degree in Molecular Environmental Biology. She is interested in how the physiology of the sinoatrial node (SAN) changes in response to different types of physiological and pathological stress.</p>
+      </div>
+      <div class="col-1"></div>
+    </div>
+
+    <div class="row w-100 bg-dark">
+      <div class="col-1"></div>
+      <div class="col-3 py-sm-5 d-flex flex-wrap align-items-center">
+        <img src="images/james.jpg" class="mx-auto img-fluid" alt="James" style="width:250px;height:250px">
+      </div>
+      <div class="col py-sm-5">
+        <h3 class="pb-sm-2">James Engel</h3>
+        <h4>Postdoctoral Fellow</h4>
+        <p>James received his B.S. in Human Biology and M.S. in Biology from the University of California, San Diego (UCSD). During his time at UCSD his research in Dr. Jack Dixon’s lab was focused on studying the biochemistry of novel phosphatases and secreted kinases. He then received his Ph.D in Molecular, Cellular and Integrative Physiology at the University of California, Los Angeles (UCLA) in the lab of Dr. Reza Ardehali where he studied the differentiation of human embryonic stem cells to heart field specific cardiomyocytes for the treatment of cardiovascular disease. James was selected to participate in the Amgen Postdoctoral Program and will be collaboratively mentored in the Vedantham Lab at UCSF CVRI and at the Amgen South San Francisco Campus. </p>
+      </div>
+      <div class="col-1"></div>
+    </div>
+
+    <div class="row w-100 bg-dark2">
+      <div class="col-1"></div>
+      <div class="col-3 py-sm-5 d-flex flex-wrap align-items-center">
+        <img src="images/KC_for_lab_bio.jpeg" class="mx-auto img-fluid" alt="Kevin" style="height:250px;width:250px">
+      </div>
+      <div class="col py-sm-5">
+        <h3 class="pb-sm-2">Kevin Chang</h3>
+        <h4>Medical Student</h4>
+        <p>Kevin received an undergraduate degree from Vanderbilt University in Neuroscience and Psychology. He has previously done work in various neuroscience labs studying Alzheimer's Disease, but since starting medical school this past fall, he has developed an interest in cardiology. Kevin is excited to work with Dr. Vedantham in learning more about the underlying physiology of the sinoatrial node (SAN) and leveraging the physiology to explore novel therapeutic approaches to the treatment of arrhythmias.</p>
+      </div>
+      <div class="col-1"></div>
+    </div>
+
+    <div class="row w-100 bg-almblack text-light">
+      <div class="col-1"></div>
+      <h2 class="py-sm-5">Alumni</h2>
+    </div>
+    <div class="row w-100 bg-almblack text-light">
+      <div class="col-1"></div>
+      <div class="col-2 d-flex flex-wrap align-items-center">
+        <img src="images/prasanna-alumni.jpg" class="mx-auto img-fluid" alt="Prasanna" style="height:250px;width:250px">
       </div>
     </div>
-    <div class="row-padding">
-      <div class="col m3 margin-bottom">
-        <img src="images/hongmei.png"/ alt="Hongmei" style="width:250px;height:250px">
-      </div>
-      <div class="col m9 margin-bottom">
-        <h3>Hongmei Ruan</h3>
-        <h4>Specialist</h4>
-        <p>Hongmei received an MD from North-China Coal Medical College, followed by an MS in Cardiovascular Physiology and a PhD in Cardiovascular Pharmacology at Zhongshan University in China. Over the past 30 years, her research has been focused on cardiomyocyte biology and physiology in heart disease, with particular emphasis on cardiac electrophysiology and arrhythmias. She worked as a postdoctoral fellow with Dr. Yibin Wang at UCLA, and later joined the group as a research scientist. She is a past recipient of an AHA postdoctoral fellowship and scientist development grant during her time at UCLA. Hongmei joined the lab in 2017, and (among other projects) currently leads our efforts in whole animal and cellular electrophysiology, including whole cell patch clamp of isolated cardiac pacemaker cells, ex-vivo electrophysiology studies in isolated mouse hearts, and surgical implantation of transmitters for in-vivo electrocardiography. </p>
+    <div class="row w-100 bg-almblack text-light">
+      <div class="col-1"></div>
+      <div class="col-2 d-flex flex-wrap align-items-center">
+        <h4 class="mx-auto py-sm-3">Prasanna Allu</h4>
       </div>
     </div>
+    <div class="row w-100 bg-almblack text-light">
+      <div class="col-1"></div>
+      <div class="col-2 d-flex flex-wrap align-items-center">
+        <p class="mx-auto pb-sm-5">2016-2019</p>
+      </div>
+    </div>
+    
+
+
+    <div class="row w-100 bg-darker text-light">
+      <div class="col-1"></div>
+      <div class="col py-sm-5">
+      <h2>Join the Team!</h2>
+      <p>We are looking for motivated researchers from diverse backgrounds at all levels of prior training to join our group. Potential candidates should contact vasanth.vedantham@ucsf.edu. </p>
+      <h3>Postdoctoral Fellows:</h3>
+      <p>We are particularly interested in postdocs with prior experience in computational biology, developmental biology, genomics, or cardiovascular physiology, but will consider any motivated applicants. Interested candidates should send a C.V. with a statement outlining your research background, long-term goals, and a brief proposal for what you want to accomplish in the lab. </p>
+      <h3>Graduate Students:</h3>
+      <p>Stay Tuned! We will soon be affiliated with UCSF graduate programs.</p>
+      <h3>Undergraduates:</h3>
+      <p>Students at University of California, Berkeley, can apply to join the lab via the URAP program. Students at other universities should send their C.V. directly to vasanth.vedantham@ucsf.edu. We are particularly interested in students with computational biology backgrounds, but all are welcome to apply.</p>
+      </div>
+    </div>
+
+    <div class="row w-100 bg-darker py-sm-5 text-light"></div>
+
+<!--   
     <div class="row-padding">
       <div class="col m3 margin-bottom">
         <img src="images/prasanna.png"/ alt="Prasanna" style="width:250px;height:250px">
@@ -100,35 +197,6 @@
         <p>Prasanna received an undergraduate degree from Loyola College and a Ph.D. from the Department of Biotechnology at the Indian Institute of Technology in Madras, India. He completed his dissertation research in the lab of Dr. Nitish Mahapatra, where he defined functional changes that are associated with genetic variation of the dysglycemic peptide pancreastatin in Indian populations. Prasanna received several honors and awards during his undergraduate and doctoral training including CSIR-UGC doctoral fellowship from the Government of India. His initial postdoctoral work in the lab of Dr. David Pearce at UCSF explored mTOR signaling in adipose tissues. Prasanna joined the lab in 2017, and is focused on understanding transcriptional networks in cardiac pacemaker cells using mouse models. He has received an AHA postdoctoral fellowship to support this work.</p>
       </div>
     </div>
-    <div class="row-padding">
-      <div class="col m3 margin-bottom">
-        <img src="images/ravi.png"/ alt="Ravi" style="width:250px;height:250px">
-      </div>
-      <div class="col m9 margin-bottom">
-        <h3>Ravi Mandla</h3>
-        <h4>Junior Specialist</h4>
-        <p>Ravi received an undergraduate degree from UC Berkeley in Molecular and Cell Biology and Edcation. He currently works on better understanding the epigenetic regulations involved in the development of pacemaker cells, using both computational and molecular biology techniques to do so. He is also interested in better understanding how these regulatory pathways have changed throughout evolution, and how these changes can be translated into better patient therapies.</p>
-      </div>
-    </div>
-    <div class="row-padding">
-      <div class="col m3 margin-bottom">
-        <img src="images/catherine.jpg"/ alt="Catherine" style="width:250px;height:250px">
-      </div>
-      <div class="col m9 margin-bottom">
-        <h3>Catherine Jung</h3>
-        <h4>Undergraduate</h4>
-        <p>Catherine is currently a fourth year undergraduate student at UC Berkeley studying Molecular Environmental Biology. She is interested in how the physiology of the sinoatrial node (SAN) changes in response to different types of physiological and pathological stress.</p>
-      </div>
-    </div>
-    <div class="row-padding">
-        <div class="col m3 margin-bottom">
-          <img src="images/james.jpg"/ alt="James" style="width:250px;height:250px">
-        </div>
-        <div class="col m9 margin-bottom">
-          <h3>James Engel</h3>
-          <h4>Postdoctoral Fellow</h4>
-          <p>James received his B.S. in Human Biology and M.S. in Biology from the University of California, San Diego (UCSD). During his time at UCSD his research in Dr. Jack Dixon’s lab was focused on studying the biochemistry of novel phosphatases and secreted kinases. He then received his Ph.D in Molecular, Cellular and Integrative Physiology at the University of California, Los Angeles (UCLA) in the lab of Dr. Reza Ardehali where he studied the differentiation of human embryonic stem cells to heart field specific cardiomyocytes for the treatment of cardiovascular disease. James was selected to participate in the Amgen Postdoctoral Program and will be collaboratively mentored in the Vedantham Lab at UCSF CVRI and at the Amgen South San Francisco Campus. </p>
-        </div>
 
     <div class="container padding-64">
       <h2>Join the Team!</h2>
@@ -143,7 +211,7 @@
   </div>
   </div>
 
-      <!-- Footer -->
+ -->
   <footer class="center black padding-64">
     </footer>
       
