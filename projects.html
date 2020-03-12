@@ -3,7 +3,7 @@
 <title>Vedantham Lab | Projects</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
-<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="css/bootstrap.css">
 
 <head>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -14,33 +14,39 @@
 
 <body>
     <!-- Navbar (sit on top) -->
-    <div class="top">
-        <div class="head-bar white wide padding">
-            <div class="bar-item dropdown mobileshow" id='content-mobile'>
-                <button class="dropbtn">
-                  <i class="fas fa-bars"></i>
-                </button>
-                <div class="dropdown-content">
-                  <a href="/projects.html">Projects</a>
-                  <a href="members.html">Meet the Team</a>
-                  <a href='/publications.html'>Publications</a>
-                  <a href="/index.html#contact">Contact</a>
-                </div>
-            </div>
-          <a href="/index.html#home" class="bar-item button">Vedantham Lab @ UCSF</a>
-          <!-- Float links to the right. Hide them on small screens -->
-          <div class="right hide-small">
-            <a href="/projects.html" class="bar-item button">Projects</a>
-            <a href="/members.html" class="bar-item button">Meet the Team</a>
-            <a href="/publications.html" class="bar-item button">Publications</a>
-            <a href="/index.html#contact" class="bar-item button">Contact</a>
-          </div>
-        </div>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-darker">
+      <a class="navbar-brand text-light" href="index.html">
+        <h3>Vedantham Lab</h3>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link text-light" href="/members.html">Members</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="/projects.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#contact">Contact</a>
+          </li>
+        </ul>
+      <span>
+        <h5 class="text-light">UCSF</h5>
+      </span>
+
       </div>
+    </nav>
 
     <!-- Projects List -->
-    <div class="container padding-64 center" id="publications" style="max-width:100%">
-        <h1>Research</h1>
+    <div class="container py-sm-5" id="publications" style="max-width:100%">
+        <h1 class="py-sm-5">Research</h1>
     </div>
 
     <div class="contianer padding" id="Development" style="max-width:100%">

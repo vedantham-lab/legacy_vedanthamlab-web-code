@@ -30,13 +30,13 @@
             <a class="nav-link text-light" href="/members.html">Members</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light" href="#">Projects</a>
+            <a class="nav-link text-light" href="/index.html#about">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light" href="#">Publications</a>
+            <a class="nav-link text-light" href="/publications.html">Publications</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light" href="#contact">Contact</a>
+            <a class="nav-link text-light" href="/index.html#contact">Contact</a>
           </li>
         </ul>
       <span>
@@ -55,8 +55,7 @@
         </div>
       </div>
     </div>
-
-      <div class="row w-100 text-light">
+      <div class="row w-100 bg-darker py-sm-5 text-light" id="about">
         <div class="col-1 bg-darker"></div>
         <div class="col-3 py-sm-5 bg-darker">
           <img src="images/heart.jpg" class="img-fluid mx-auto d-block" style="width:60%">
@@ -75,28 +74,128 @@
       <div class="row bg-darker w-100">
         <div class="col-1"></div>
         <div class="col-5 py-sm-4 pr-sm-5">
-          <a href="/projects.html#Development" role="button" class="py-sm-5 btn btn-secondary btn-block">
+          <button role="button" data-toggle="modal" data-target="#devModal" class="py-sm-5 btn btn-secondary btn-block">
             <h2>Development</h2>
-          </a>
+          </button>
         </div>
+        <!-- The Development Modal -->
+        <div class="modal" id="devModal">
+          <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content">
+
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">Development</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+
+              <!-- Modal body -->
+              <div class="modal-body">
+                <p>Specialized cardiac pacemaker cells (PCs) differentiate and begin functioning early in embryonic development, even as they are forming the nascent SAN. Despite the central role played by PCs in cardiovascular physiology, the precise cellular origins of PCs and the signals that induce their differentiation and proliferation are not completely understood. Historically, PCs have been difficult to study because of their limiting numbers and the lack of suitable molecular markers and genetic tools. However, the advent of single cell and low cell input technologies have rendered PCs tractable for detailed molecular characterization, and the last several years have seen rapid growth in our knowledge and understanding of this fascinating cell type.</p>
+                <p>One of our contributions was to define the gene expression profile of this rare cell population at several stages of embryonic and postnatal development. Our work and work from other labs have demonstrated that developing pacemaker cells express, in addition to the gene program associated with heart muscle, an additional set of “neuronal-like” genes that allow them to function as leading pacemakers. Furthermore, our group and others have found that the transcription factor Islet-1 is required for pacemaker cells to fully engage this gene expression program. Without Islet-1, pacemaker cells exhibit a gene expression pattern more similar to regular heart muscle cells. Since then, we have defined the epigenetic landscape of cardiac pacemaker cells and have thereby uncovered cis-regulatory elements that are active specifically in developing pacemaker cells from early stages onwards. By using these regulatory elements to dissect upstream signaling events and to develop early lineage markers for pacemaker cells, we are now poised to address several critical questions related to pacemaker cell and SAN development:</p>
+                <p>1. How do pacemaker cell transcription factors cooperatively activate gene expression and how are these transcription factors activated during development?</p>
+                <p>2. What are the cues that direct pacemaker cells to form in the embryo and what factors guide their migration, proliferation, and maturation?</p>
+                <p>3. How is the interface between the SAN and the atrium established during development?</p>
+                <p>4. How has this elegant and deeply conserved system for generating heart rhythm evolved, and what determines the extraordinary variation in heart rate among different animal species despite conservation of the basic building blocks of the SAN and its overall architecture?</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
         <div class="col-5 py-sm-4">
-          <a href="/projects.html#Physiology" role="button" class="py-sm-5 btn btn-light2 btn-block">
+          <button role="button" data-toggle="modal" data-target="#physModal" class="py-sm-5 btn btn-light2 btn-block">
             <h2>Physiology</h2>
-          </a>
+          </button>
+        </div>
+        <!-- The Physiology Modal -->
+        <div class="modal" id="physModal">
+          <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content">
+
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">Physiology</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+
+              <!-- Modal body -->
+              <div class="modal-body">
+                <p>The SAN transmits a precisely timed electrical impulse to the surrounding atrium to set the heartbeat in motion. But how does the SAN know how fast the heart should beat? Although the SAN is composed of thousands of individual pacemaker cells (PCs) that fire automatically, the firing rate of each PC is tuned on a beat-to-beat basis by input from the autonomic nervous system, circulating hormones, diffusible signaling molecules, the degree of cardiac distension, and by coupling with neighboring cells via gap junctions. Amazingly, the collective firing behavior of PCs results in a precisely timed wave front of activation that exits the SAN and triggers a heartbeat. </p>
+                <p>Although much has been learned about this process over the past several decades, we still do not fully understand all of the inputs to individual PCs and how they are weighted. In addition, with chronic stress, pregnancy, exercise training, and aging, the SAN changes its intrinsic function in a way that must involve changes at both the cellular and tissue levels – a process known as “remodeling” that is not yet fully understood. </p>
+                <p>Our expression profiling of the SAN has identified dozens of genes whose functions in the SAN have never been explored. We hypothesize that the proteins encoded by many of these genes – which include (among others) G-protein coupled receptors, adhesion molecules, and signaling components involved in synaptogenesis and nervous system development – regulate pacemaker cell firing rate in-vivo and determine how the SAN changes its behavior in response to different types of physiological stress. </p>
+                <p>To test this hypothesis, we are using multi-level physiological analysis in genetically modified mice, including cellular electrophysiology (whole cell patch clamp), ex-vivo physiology (programmed stimulation and optical mapping in isolated hearts and embryos), and in-vivo physiology (electrocardiography in mice using implanted transmitters). We are also using light-sheet microscopy and other histological techniques to directly visualize nodal structure in normal, stressed, and mutant hearts. Currently, we are exploring the following specific questions:</p>
+                <p> 1. Can we assign physiological functions to novel genes that we have identified in pacemaker cells?</p>
+                <p> 2. How are the different inputs to the SAN and to PCs weighted at the cellular level and at the nodal level to determine the timing of the subsequent heartbeat?</p>
+                <p> 3. How is communication and cell-cell coupling among the different cell types within and surrounding the SAN established and dynamically regulated at the level of gene expression, cellular behavior and tissue organization?</p>
+                <p> 4. Can we leverage our understanding of SAN physiology to increase the intrinsic firing rate of a diseased SAN without incurring the toxicity that is associated with sympathomimetic stimulants?</p>
+              </div>
+
+
+            </div>
+          </div>
         </div>
       </div>
       <div class="row pb-sm-5 bg-darker" style="width:100%">
         <div class="col-1"></div>
         <div class="col-5 py-sm-4 pr-sm-5">
-          <a href="/projects.html#Disease" role="button" class="py-sm-5 btn btn-light btn-block">
+          <button data-toggle="modal" data-target="#disModal" role="button" class="py-sm-5 btn btn-light btn-block">
             <h2>Disease</h2>
-          </a>
+          </button>
         </div>
+        <!-- The Disease Modal -->
+        <div class="modal" id="disModal">
+          <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content">
+
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">Disease</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+
+              <!-- Modal body -->
+              <div class="modal-body">
+                <p>Disorders of cardiac pacemaking, including sinus node dysfunction (slow heart beat) and atrial fibrillation (disorganized, irregular heart beat), are among the most common sources of morbidity in the world. Approximately 200,000 pacemakers are implanted every year in the United States for patients with slow heartbeat. In addition, millions of Americans live with atrial fibrillation, which contributes to 750,000 hospitalizations per year and about 130,000 deaths in the United States alone (CDC_AF_FactSheet). We are interested in developing a detailed understanding of the pathogenesis of common forms of irregular and slow heart beat by leveraging our work on normal SAN and atrial biology. Specifically, we are taking two complementary approaches:</p>
+                <p> 1. We are interrogating existing large genotype-phenotype data sets to determine whether natural variation in genes and putative cis-regulatory elements we have identified in pacemaker cells and atrial myocardium are related to variation in sinus node function and propensity to develop slow or irregular heart beat. Some of this variation may identify previously unnoticed pathways and molecular players in disease pathogenesis.</p>
+                <p> 2. We have identified several patients with rare mutations that cause severe and early onset forms of sinus node dysfunction and atrial fibrillation. We are characterizing these mutations in mouse models and human induced pluripotent stem cell derived cardiomyocytes to understand the molecular mechanisms that cause disease in these patients. Our hypothesis is that understanding severe or rare forms of these diseases will identify pathways that are relevant to common forms of disease.</p>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+        
         <div class="col-5 py-sm-4">
-          <a href="/projects.html#Regeneration" role="button" class="py-sm-5 btn btn-secondary2 btn-block">
+          <button data-toggle="modal" data-target="#regModal" role="button" class="py-sm-5 btn btn-secondary2 btn-block">
             <h2>Regeneration</h2>
-          </a>
+          </button>
         </div>
+        <!-- The Regeneration Modal -->
+        <div class="modal" id="regModal">
+          <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content">
+
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">Regeneration</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+
+              <!-- Modal body -->
+              <div class="modal-body">
+                <p>Because sinoatrial and atrial cardiomyocytes do not regenerate in significant numbers after injury or in the setting of chronic disease, pathological changes that lead to sinus node dysfunction and atrial fibrillation are usually irreversible. Thus, even though sinus node dysfunction progresses slowly, there is no way to prevent or treat disease at early stages, so the only therapy available is for patients with advanced disease who typically receive pacemakers. Various strategies to develop biological pacemakers composed of automatically firing cells that can be introduced into the heart have been attempted with mixed results in animal models. Promising efforts to “reprogram” resident heart cells into pacemaker-like cells have also had some success but have yet to be translated into practical therapies that can be widely used for patients. </p>
+                <p>	We are adopting an integrative approach to devising novel therapeutic strategies for heart rhythm disorders. By defining molecular mechanisms and pathways that regulate normal development, physiology, and remodeling of the SAN and atrium, we hope to define novel molecular pathways and targets that can be used in a combinatorial approach to regenerate diseased SAN and atrial tissue when delivered in-vivo.  Specific questions we are addressing include:</p>
+                <p> 1. How can we efficiently deliver therapeutic agents to the SAN and atrium?</p>
+                <p> 2. Can reactivation of developmental pathways in non-pacemaker cells induce reprogramming to a pacemaker cell phenotype and affect SAN function?</p>
+                <p> 3. Can we address rare SAN and atrial diseases that arise from single gene mutations with targeted corrective therapies in-vivo?</p>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
       </div>
 
       <div class="row w-100 bg-dark text-light" id="contact">
@@ -129,36 +228,3 @@
 
   </body>
 </html>
-
-<!-- Header
-  
-   
-     Contact Section
-    <div class="container padding-32" id="contact">
-      <h3 class="border-bottom border-light-grey padding-16">Contact</h3>
-    </div>
-    <div>
-      <h4>Plasmids, Protocols, and Reagents</h4>
-      <p>We are happy to share any protocols, reagents or published mouse models that were generated in the lab. For plasmids and protocols, please contact the lab manager, Giselle Galang at giselle.galang@ucsf.edu. For mouse requests, please contact Vasanth directly at vasanth.vedantham@ucsf.edu. Please include “Reagent Request” in subject heading.</p>
-    </div>
-    <div class="mapouter center margin-bottom padding-16">
-      <div class="gmap_canvas">
-        <iframe width="100%" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=555%20mission%20bay%20blvd%20south&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"></iframe>
-      </div>
-    </div>
-    <div class="center">
-      <p>Smith Cardiovascular Research Building</p>
-      <p>555 Mission Bay Blvd South, Room 314</p>
-      <p>San Francisco, CA 94158</p>
-      <p>Lab Phone: 415-502-3743</p>
-    </div>
-
-
-   End page content 
-  </div>
-  
-  
-   Footer 
-  <footer class="center black padding-64">
-  </footer>
--->
