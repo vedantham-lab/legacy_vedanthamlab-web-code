@@ -3,48 +3,64 @@
 <title>Vedantham Lab | Publications</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
-<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="css/bootstrap.css">
 
 <head>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://kit.fontawesome.com/b8ad6a2c89.js" crossorigin="anonymous"></script>
-  <script src="index.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
+
+
     <!-- Navbar (sit on top) -->
-    <div class="top">
-        <div class="head-bar white wide padding">
-            <div class="bar-item dropdown mobileshow" id='content-mobile'>
-                <button class="dropbtn">
-                  <i class="fas fa-bars"></i>
-                </button>
-                <div class="dropdown-content">
-                  <a href="/projects.html">Projects</a>
-                  <a href="members.html">Meet the Team</a>
-                  <a href='/publications.html'>Publications</a>
-                  <a href="/index.html#contact">Contact</a>
-                </div>
-            </div>
-          <a href="/index.html#home" class="bar-item button">Vedantham Lab @ UCSF</a>
-          <!-- Float links to the right. Hide them on small screens -->
-          <div class="right hide-small">
-            <a href="/projects.html" class="bar-item button">Projects</a>
-            <a href="/members.html" class="bar-item button">Meet the Team</a>
-            <a href="/publications.html" class="bar-item button">Publications</a>
-            <a href="/index.html#contact" class="bar-item button">Contact</a>
-          </div>
-        </div>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-darker">
+      <a class="navbar-brand text-light" href="index.html">
+        <h3>Vedantham Lab</h3>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link text-light" href="/members.html">Members</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="/index.html#about">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="/publications.html">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="/index.html#contact">Contact</a>
+          </li>
+        </ul>
+      <span>
+        <h5 class="text-light">UCSF</h5>
+      </span>
+
       </div>
+    </nav>
 
     <!-- Publication List -->
-    <div class="container padding-64 center" id="publications" style="max-width:100%">
-        <h2>Selected Key Publications by Topic Area</h2>
+    <div class="bg-lightish">
+      <div class="bg-lightish row d-md-none p-5"></div>
+
+    <div class="row text-center py-sm-5" id="publications" style="max-width:100%">
+        <h2 class="py-sm-5 mx-auto">Selected Key Publications by Topic Area</h2>
     </div>
-    <div class="container center" style="max-width:100%">
-      <h3>Cardiac Conduction System Development and Function</h3>
-        <p class="eget_bib left-align">Samal, Eva, et al. 
+    <div class="row" style="max-width:100%">
+      <h3 class="mx-auto text-center pb-sm-3">Cardiac Conduction System Development and Function</h3>
+    </div>
+    <div class="row" style="max-width:100%">
+      <div class="col-1"></div>
+      <div class="col-8">
+        <p>Samal, Eva, et al. 
             <a href=https://dx.doi.org/10.3389%2Ffphys.2019.00235>
                 Premature MicroRNA-1 Expression Causes Hypoplasia of the Cardiac Ventricular Conduction System</a>.
              In 
@@ -52,85 +68,391 @@
                 Frontiers in Physiology, vol. 10, 18 Mar. 2019
             </em>
         </p>
-        <p class="eget_bib left-align">Vedantham V. (2015). New Approaches to Biological Pacemakers: Links to Sinoatrial Node Development. <em>Trends in Molecular Medicine. 21(12):749-761</em></p>
-        <p class="eget_bib left-align">Vedantham V, G Galang, M Evangelista, RC Deo and D Srivastava. (2015). RNA Sequencing of Mouse Sinoatrial Node Reveals an Upstream Regulatory Role for Islet-1 in Cardiac Pacemaker Cells. <em>Circulation Research. 116:797-803.</em></p>
-        <p class="eget_bib left-align">Hua LL, Vedantham V, Barnes RM, Hu J, Robinson AS, Bressan M, Srivastava D, and Black BL. (2014) Specification of the mouse cardiac conduction system in the absence of Endothelin signaling. <em>Developmental Biology. 393(2):245-54</em></p>
-        <p class="eget_bib left-align">Vedantham V, Evangelista M, Huang Y, and D Srivastava (2013). Spatiotemporal Regulation of an Hcn4 Enhancer Defines a Role for Mef2 and HDACs in Cardiac Electrical Patterning. <em>Developmental Biology. 373(1):149-62</em></p>
-        <p class="eget_bib left-align">Zhao Y, JF Ransom, A Li, V Vedantham, M von Drehle, AN Muth, T Tsuchihashi, MT McManus, RJ Schwartz, and D Srivastava. (2007) Dysregulation of Cardiogenesis, Cardiac Conduction, and Cell Cycle in Mice Lacking miRNA-1-2. <em>Cell. 129(2):303-317</em></p>
-      <h3>Cardiac Regeneration</h3>
-        <p class="eget_bib left-align">Qian L, Y Huang, CI Spencer, A Foley, V Vedantham, L Liu, SJ Conway, J-D Fu, and D Srivastava (2012). In vivo reprogramming of murine cardiac fibroblasts into induced cardiomyocytes. <em>Nature. 485:593-598</em></p>
-        <p class="eget_bib left-align">Ieda M, JD Fu, P Delgado-Olguin, V Vedantham, Y Hayashi, BG Bruneau, and D Srivastava (2010) Direct Reprogramming of Fibroblasts into Functional Cardiomyocytes by Defined Factors. <em>Cell. 142(3):375-386</em></p>
-      <h3>Cellular and Molecular Electrophysiology</h3>
-        <p class="eget_bib left-align">Vedantham V and SC Cannon. (2000) Rapid and Slow Voltage-Dependent Conformational Changes in Segment IVS6 of Voltage-Gated Na+ Channels. <em>Biophysical Journal. 78(6): 2943-2958</em></p>
-        <p class="eget_bib left-align">Vedantham V and SC Cannon. (1999) The Position of the Fast Inactivation Gate During Lidocaine Block of Voltage-Gated Na+ Channels. <em>Journal of General Physiology. 113: 7-16</em></p>
-        <p class="eget_bib left-align">Vedantham V and SC Cannon. (1998) Slow Inactivation Does Not Affect Movement of the Fast Inactivation Gate in Voltage-Gated Na+ Channels. <em>Journal of General Physiology. 111: 83-93</em></p>
-    </div>
-    <div class="container center" style="max-width:100%">
-      <h2>Full List of Publications</h2>
-    </div>
-    <div class="container center" style="max-width: 100%">
-      <h3>2019</h3>
-        <p class="eget_bib left-align">Samal, Eva, et al. 
-          <a href=https://dx.doi.org/10.3389%2Ffphys.2019.00235>
-              Premature MicroRNA-1 Expression Causes Hypoplasia of the Cardiac Ventricular Conduction System</a>.
-           In 
-          <em>
-              Frontiers in Physiology, vol. 10, 18 Mar. 2019
-          </em>
-        </p>
-        <p class="eget_bib left-align">Rosenthal DG, Parwani P, Murray T, Petek BJ, Benn BS, De Marco T, Gerstenfeld EP, Janmohamed M, Klein L, Lee BK, Moss JD, Scheinman MM, Hsia HH, Selby V, Koth L, Pampaloni MH, Zikherman J, Vedantham V. (2019). Long-Term Corticosteroid-Sparing Immunosuppression for Cardiac Sarcoidosis.<em>Journal of the American Heart Association. doi: 10.1161/JAHA.118.010952</em></p>
-      <h3>2018</h3>
-        <p class="eget_bib left-align">Szilagyi J, Walters TE, Marcus GM, Vedantham V, Moss JD, Badhwar N, Lee B, Lee R, Tseng ZH, and Gerstenfeld EP. (2018). Surface ECG and intracardiac spectral measures predict atrial fibrillation recurrence after catheter ablation. J Cardiovasc. <em>Electrophysiol. doi: 10.1111/jce.136998 [Epub ahead of print]</em></p>
-        <p class="eget_bib left-align">Ito H, Badhwar N, Patel AR, Hoffmayer KS, Moss JD, Pellegrini CN, Vedantham V, Tseng ZH, Tanel RE, Hsia HH, Lee RJ, Marcus GM, Gerstenfeld EP, and Scheinman MM. (2018). Use of Programmed Ventricular Extrastimulus During Supraventricular Tachycardia to Differentiate Atioventricular Nodeal Re-Entrant Tachycardia From Atrioventricular Reentrant Tachycardia. <em>JACC Clin Electrophysiol. 4(7):872-880</em></p>
-
-      <h3>2017</h3>
-        <p class="eget_bib left-align">Szilagyi S, Marcus G, Badhwar N, Lee B, Lee R, Vedantham V, Tseng Z, Walters T, Scheinman M, Olgin J and Gerstenfeld EP. (2017). Atrial Fibrillation Patients with Isolated Pulmonary Veins: Is Sinus Rhythm Achievable? <em>Journal of Cardiac Electrophysiology. 28(7):754-761</em></p>
-        <p class="eget_bib left-align">Guo X, Vittinghoff E, Vedantham V, Pletcher MJ, and Lee BK. (2017). Trends in Hospitalizations for Cardiac Sarcoidosis in the United States, 2005-2011. Circulation Journal. 81(11):1739-1741</p>
-
-      <h3>2016</h3>
-        <p class="eget_bib left-align">Kawamura M, MM Scheinman, V Vedantham, GM Marcus, ZH Tseng, and N Badhwar. (2016). Clinical and Electrophysiological Characteristics of Incessant Atrioventricular Nodal Re-Entrant Tachycardia. JACC: Clinical Electrophysiology. 2(5):596-602</p>
-        <p class="eget_bib left-align">Nguyen KT, Gladstone RA, Dukes JW, Nazer B, Vittinghoff E, Badhwar N, Vedantham V, Gerstenfeld EP, Lee BK, Tseng ZH, Olgin JE, Scheinman MM, and Marcus GM. (2016). The QT Interval as a Noninvasive Marker of Atrial Refractoriness. Pacing Clin Electrophysiol. 39(12):1366-1372</p>
-        <p class="eget_bib left-align">Roberts JD, Gollob MH, Young C, Connors SP, Gray C, Wilton SB, Green MS, Zhu DW, Hodgkinson KA, Poon A, Li Q, Orr N, Tang AS, Klein GJ, Wojciak J, Campagna J, Olgin, JE, Badhwar N, Vedantham V, Marcus GM, Kwok P-Y, Deo RC, and Scheinman MM. (2016). Bundle Branch Re-Entrant Ventricular Tachycardia. Novel Genetic Mechanisms in a Life-Threatening Arrhythmia. JACC: Clinical Electrophysiology. 3(3):276-288</p>
-
-      <h3>2015</h3>
-        <p class="eget_bib left-align">Hoffmayer KS, Lee BK, Vedantham V, Bhimani AA, Cakulev IT, Mackall JA, Sahadevan J, Rho RQ, Scheinman MM. (2015) Variable Clinical Features and Ablation of Manifest Nodofascicular/Ventricular Pathways. Circulation Arrhythmia and Electrophysiology. 8(1):117-27</p>
-        <p class="eget_bib left-align">Vedantham V, G Galang, M Evangelista, RC Deo and D Srivastava. (2015). RNA Sequencing of Mouse Sinoatrial Node Reveals an Upstream Regulatory Role for Islet-1 in Cardiac Pacemaker Cells. Circulation Research. 116:797-803.</p>
-        <p class="eget_bib left-align">Kawamura M, JC Hsu, V Vedantham, GM Marcus, HH Hsia, EP Gerstenfeld, MM Scheinman, and N Badhwar. (2015). Clinical and Electrocardiographic Characteristics of Idiopathic Ventricular Arrhythmias with Right Bundle Branch Block and Superior Axis-Comparison of apical crux area and posterior-septal left ventricle. Heart Rhythm. 12(6):1137-1144</p>
-        <p class="eget_bib left-align">Ito H, Kawamura M, Badhwar N, Vedantham V, Tseng ZH, Lee BK, Lee RJ, Marcus GM, Gerstenfeld EP, and Scheinman MM. (2015). The Effect of Direct Current Stimulation versus T Wave Shock on Defibrillation Threshold Testing. Pacing and Clinical Electrophysiology. 38(10):1173-1180</p>
-        <p class="eget_bib left-align">Vedantham V. (2015). New Approaches to Biological Pacemakers: Links to Sinoatrial Node Development. Trends in Molecular Medicine. 21(12):749-761</p>
-      <h3>2014</h3>
-        <p class="eget_bib left-align">Kawamura M, Vedantham V, Dewland TA, Scheinman MM. (2014), Incessant long-RP tachycardia: What is the mechanism? Heart Rhythm. 2014. 11(5):904-6</p>
-        <p class="eget_bib left-align">Kawamura M, Badhwar N, Vedantham V, Tseng ZH, Lee BK, Lee RJ, Marcus GM, Olgin JE, Gerstenfeld EP, Scheinman MM. Coupling Interval Dispersion and Body Mass Index are Independent Predictors of Idiopathic Premature Ventricular Complex Induced Cardiomyopathy. J Cardiovasc Electrophysiol. 25(7):756-62</p>
-        <p class="eget_bib left-align">Stepanyan, G, Badhwar N, Lee RJ, Marcus GM, Lee BK, Tseng ZH, Vedantham V, Olgin J, Scheinman M, Gerstenfeld EP. Safety of new oral anticoagulants for patients undergoing atrial fibrillation ablation. J Interv Card Electrophysiol. 40(1):33-8</p>
-        <p class="eget_bib left-align">Singh DK, Viswanathan MN, Tanel RE, Lee RJ, Lee BK, Marcus GM, Olgin JE, Han F, Vedantham V, Tseng ZH, Pellegrini C, Kawamura M, Gerstenfeld EP, Badhwar N, and Scheinman M. His Overdrive Pacing During Supraventricular Tachycardia: A Novel Maneuver for Distinguishing Atrioventricular Nodal Reentrant Tachycardia from Atrioventricular Reciporicating Tachycardia. Heart Rhythm. 11(8):1327-35</p>
-        <p class="eget_bib left-align">Hua LL, Vedantham V, Barnes RM, Hu J, Robinson AS, Bressan M, Srivastava D, and Black BL. (2014) Specification of the mouse cardiac conduction system in the absence of Endothelin signaling. Developmental Biology. 393(2):245-54</p>
-        <p class="eget_bib left-align">Kawamura M, Gerstenfeld EP, Vedantham V, Rodrigues DM, Burkhardt JD, Kobayashi Y, Hsia HH, Marcus GM, Marchlinkski FE, Scheinman MM, Badhwar N. (2014) Idiopathic Ventricular Arrhythmia Originating from the Cardiac Crux or Inferior Septum - An Epicardial Idiopathic Ventricular Arrhythmia. Circulation: Arrhythmia and Electrophysiology. 7(6):1152-8</p>
-        <p class="eget_bib left-align">Judson MA, Costabel U, Drent M, Wells A, Maier L, Koth L, Shigemitsu H, Culver DA, Gelfand J, Valeyre D, Sweiss N, Crouser E, Morgenthau AS, Lower EE, Azuma A, Ishihara M, Morimoto S, Tetsuo Yamaguchi T, Shiiubo N, Grutters JC, Rosenbach M, Li HP, Rottoli P, Inoue Y, Prasse A, Baughman RP, Organ Assessment Instrument Investigators TW (includes Vedantham V). The WASOG Sarcoidosis Assessment Instrument: An update of a previous clinical tool. Sarcoidosis Vasc Diffuse Lung Dis. 2014. 18(1):19-27</p>
-
-      <h3>2013</h3>
-        <p class="eget_bib left-align">Vedantham V, Evangelista M, Huang Y, and D Srivastava (2013). Spatiotemporal Regulation of an Hcn4 Enhancer Defines a Role for Mef2 and HDACs in Cardiac Electrical Patterning. Developmental Biology. 373(1):149-62</p>
-        <p class="eget_bib left-align">Vedantham V, WM Jackman, and MM Scheinman. (2013). Unexpected Potential Following Ablation of a Right Atriofascicular Accessory Pathway. Journal of Cardiovascular Electrophysiology. 24(8):939-41</p>
-        <p class="eget_bib left-align">Hsu JC, Badhwar N, Gerstenfeld EP, Lee RJ, Mandyam MC, Dewland TA, Imburgia KE, Hoffmayer KS, Vedantham V, Lee BK, Tseng ZH, Scheinman MM, Olgin JE, Marcus GM. A Randomized Trial of Conventional Transseptal Needle versus Radiofrequency Energy Needle Puncture for Left Atrial Access (The TRAVERSE-LA Study).  J Am Heart Assoc. 2013 Sep 17; 2(5)e000428.</p>
-      <h3>2012</h3>
-        <p class="eget_bib left-align">Qian L, Y Huang, CI Spencer, A Foley, V Vedantham, L Liu, SJ Conway, J-D Fu, and D Srivastava (2012). In vivo reprogramming of murine cardiac fibroblasts into induced cardiomyocytes. Nature. 485:593-598</p>
-        <p class="eget_bib left-align">Hsu JC, N Badhwar, BK Lee, V Vedantham, ZH Tseng, and GM Marcus (2012). Predictors of Fluoroscopy Time and Procedural Failure During Biventricular Device Implantation. American Journal of Cardiology. 110(2):240-245</p>
-        <p class="eget_bib left-align">Mandyam  MC, V Vedantham , MM Scheinman,  ZH Tseng, N Badhwar, BK Lee, RJ Lee, EP Gerstenfeld, JE Olgin, and GM Marcus.  (2012). Alcohol and Vagal Tone as Triggers for Paroxysmal Atrial Fibrillation. American Journal of Cardiology. 110(3):364-368</p>
-      <h3>2011</h3>
-        <p class="eget_bib left-align">Nguyen DR, JZ Wang, V  Vedantham, and N Badhwar (2011). Odynophagia after atrial fibrillation ablation. Circulation. 123(8):e253-e254 </p>
-      <h3>2010</h3>
-        <p class="eget_bib left-align">Ieda M, JD Fu, P Delgado-Olguin, V Vedantham, Y Hayashi, BG Bruneau, and D Srivastava (2010) Direct Reprogramming of Fibroblasts into Functional Cardiomyocytes by Defined Factors. Cell. 142(3):375-386</p>
-
-      <h3>Before 2010</h3>
-        <p class="eget_bib left-align">Zhao Y, JF Ransom, A Li, V Vedantham, M von Drehle, AN Muth, T Tsuchihashi, MT McManus, RJ Schwartz, and D Srivastava. (2007) Dysregulation of Cardiogenesis, Cardiac Conduction, and Cell Cycle in Mice Lacking miRNA-1-2. Cell. 129(2):303-317</p>
-        <p class="eget_bib left-align">Vedantham V and SC Cannon. (2000) Rapid and Slow Voltage-Dependent Conformational Changes in Segment IVS6 of Voltage-Gated Na+ Channels. Biophysical Journal. 78(6): 2943-2958</p>
-        <p class="eget_bib left-align">Vedantham V and SC Cannon. (1999) The Position of the Fast Inactivation Gate During Lidocaine Block of Voltage-Gated Na+ Channels. Journal of General Physiology. 113: 7-16</p>
-        <p class="eget_bib left-align">Vedantham V and SC Cannon. (1998) Slow Inactivation Does Not Affect Movement of the Fast Inactivation Gate in Voltage-Gated Na+ Channels. Journal of General Physiology. 111: 83-93</p>
-        <p class="eget_bib left-align">Stern CE, S Corkin, RG Gonzales, AR Guimaraes, JR Baker, PJ Jennings, CA Carr, RM Suguira, V Vedantham and BR Rosen. (1996) The hippocampal formation participates in novel picture encoding: Evidence from functional magnetic resonance imaging, Proc. Natl. Acad. Sci. 93: 8660 - 8665</p>
-        <p class="eget_bib left-align">Shiner D, R Dixson and V Vedantham. (1995) Three Nucleon Charge Radius: A Precise Laser Determination Using Helium-3. Physical Review Letters. 74(18): 3553-7</p>
       </div>
-    
-  <!-- Footer -->
-  <footer class="center black padding-64">
-    </footer>
+      <div class="col-1"></div>
+    </div>
+    <div class="row" style="max-width:100%">
+      <div class="col-1"></div>
+      <div class="col-10">
+        <p>Vedantham V. (2015). New Approaches to Biological Pacemakers: Links to Sinoatrial Node Development. <em>Trends in Molecular Medicine. 21(12):749-761</em></p>
+      </div>
+      <div class="col-1"></div>
+    </div>
+    <div class="row" style="max-width:100%">
+      <div class="col-1"></div>
+      <div class="col-10">
+        <p>Vedantham V, G Galang, M Evangelista, RC Deo and D Srivastava. (2015). RNA Sequencing of Mouse Sinoatrial Node Reveals an Upstream Regulatory Role for Islet-1 in Cardiac Pacemaker Cells. <em>Circulation Research. 116:797-803.</em></p>
+      </div>
+      <div class="col-1"></div>
+    </div>
+    <div class="row" style="max-width:100%">
+      <div class="col-1"></div>
+      <div class="col-10">
+        <p>Hua LL, Vedantham V, Barnes RM, Hu J, Robinson AS, Bressan M, Srivastava D, and Black BL. (2014) Specification of the mouse cardiac conduction system in the absence of Endothelin signaling. <em>Developmental Biology. 393(2):245-54</em></p>
+      </div>
+      <div class="col-1"></div>
+    </div>
+    <div class="row" style="max-width:100%">
+      <div class="col-1"></div>
+      <div class="col-10">
+        <p>Vedantham V, Evangelista M, Huang Y, and D Srivastava (2013). Spatiotemporal Regulation of an Hcn4 Enhancer Defines a Role for Mef2 and HDACs in Cardiac Electrical Patterning. <em>Developmental Biology. 373(1):149-62</em></p>
+      </div>
+      <div class="col-1"></div>
+    </div>
+    <div class="row" style="max-width:100%">
+      <div class="col-1"></div>
+      <div class="col-10">
+        <p>Zhao Y, JF Ransom, A Li, V Vedantham, M von Drehle, AN Muth, T Tsuchihashi, MT McManus, RJ Schwartz, and D Srivastava. (2007) Dysregulation of Cardiogenesis, Cardiac Conduction, and Cell Cycle in Mice Lacking miRNA-1-2. <em>Cell. 129(2):303-317</em></p>
+      </div>
+      <div class="col-1"></div>
+    </div>
+
+    <div class="row" style="max-width:100%">
+      <h3 class="mx-auto text-center py-sm-3 pb-sm-3">Cardiac Regeneration</h3>
+    </div>
+    <div class="row" style="max-width:100%">
+      <div class="col-1"></div>
+      <div class="col-10">
+        <p>Qian L, Y Huang, CI Spencer, A Foley, V Vedantham, L Liu, SJ Conway, J-D Fu, and D Srivastava (2012). In vivo reprogramming of murine cardiac fibroblasts into induced cardiomyocytes. <em>Nature. 485:593-598</em></p>
+      </div>
+      <div class="col-1"></div>
+    </div>
+    <div class="row" style="max-width:100%">
+      <div class="col-1"></div>
+      <div class="col-10">
+        <p>Ieda M, JD Fu, P Delgado-Olguin, V Vedantham, Y Hayashi, BG Bruneau, and D Srivastava (2010) Direct Reprogramming of Fibroblasts into Functional Cardiomyocytes by Defined Factors. <em>Cell. 142(3):375-386</em></p>
+      </div>
+      <div class="col-1"></div>
+    </div>
+
+    <div class="row" style="max-width:100%">
+      <h3 class="mx-auto text-center py-sm-3 pb-sm-3">Cellular and Molecular Electrophysiology</h3>
+    </div>
+    <div class="row" style="max-width:100%">
+      <div class="col-1"></div>
+      <div class="col-10">
+        <p>Vedantham V and SC Cannon. (2000) Rapid and Slow Voltage-Dependent Conformational Changes in Segment IVS6 of Voltage-Gated Na+ Channels. <em>Biophysical Journal. 78(6): 2943-2958</em></p>
+      </div>
+      <div class="col-1"></div>
+    </div>
+    <div class="row" style="max-width:100%">
+      <div class="col-1"></div>
+      <div class="col-10">
+        <p>Vedantham V and SC Cannon. (1999) The Position of the Fast Inactivation Gate During Lidocaine Block of Voltage-Gated Na+ Channels. <em>Journal of General Physiology. 113: 7-16</em></p>
+      </div>
+      <div class="col-1"></div>
+    </div>
+    <div class="row" style="max-width:100%">
+      <div class="col-1"></div>
+      <div class="col-10">
+        <p>Vedantham V and SC Cannon. (1998) Slow Inactivation Does Not Affect Movement of the Fast Inactivation Gate in Voltage-Gated Na+ Channels. <em>Journal of General Physiology. 111: 83-93</em></p>
+      </div>
+      <div class="col-1"></div>
+    </div>
+  </div>
+
+  <div class="bg-darkish">
+  <div class="row text-center py-sm-5" style="max-width:100%">
+    <h2 class="mx-auto">Full List of Publications</h2>
+  </div>
+
+  <div class="row" style="max-width:100%">
+    <h3 class="mx-auto py-sm-3 pb-sm-4">2019</h3>
+  </div>
+  <div class="row" style="max-width:100%">
+    <div class="col-1"></div>
+    <div class="col-10">
+      <p>Samal, Eva, et al. 
+        <a href=https://dx.doi.org/10.3389%2Ffphys.2019.00235>
+            Premature MicroRNA-1 Expression Causes Hypoplasia of the Cardiac Ventricular Conduction System</a>.
+         In 
+        <em>
+            Frontiers in Physiology, vol. 10, 18 Mar. 2019
+        </em>
+      </p>    
+    </div>
+    <div class="col-1"></div>
+  </div>
+  <div class="row" style="max-width:100%">
+    <div class="col-1"></div>
+    <div class="col-10">
+      <p>Rosenthal DG, Parwani P, Murray T, Petek BJ, Benn BS, De Marco T, Gerstenfeld EP, Janmohamed M, Klein L, Lee BK, Moss JD, Scheinman MM, Hsia HH, Selby V, Koth L, Pampaloni MH, Zikherman J, Vedantham V. (2019). Long-Term Corticosteroid-Sparing Immunosuppression for Cardiac Sarcoidosis.<em>Journal of the American Heart Association. doi: 10.1161/JAHA.118.010952</em></p>
+    </div>
+    <div class="col-1"></div>
+  </div>
+
+  <div class="row" style="max-width:100%">
+    <h3 class="mx-auto py-sm-3 pb-sm-4">2018</h3>
+  </div>
+  <div class="row" style="max-width:100%">
+    <div class="col-1"></div>
+    <div class="col-10">
+      <p>Szilagyi J, Walters TE, Marcus GM, Vedantham V, Moss JD, Badhwar N, Lee B, Lee R, Tseng ZH, and Gerstenfeld EP. (2018). Surface ECG and intracardiac spectral measures predict atrial fibrillation recurrence after catheter ablation. J Cardiovasc. <em>Electrophysiol. doi: 10.1111/jce.136998 [Epub ahead of print]</em></p>
+    </div>
+    <div class="col-1"></div>
+  </div>
+  <div class="row" style="max-width:100%">
+    <div class="col-1"></div>
+    <div class="col-10">
+      <p>Ito H, Badhwar N, Patel AR, Hoffmayer KS, Moss JD, Pellegrini CN, Vedantham V, Tseng ZH, Tanel RE, Hsia HH, Lee RJ, Marcus GM, Gerstenfeld EP, and Scheinman MM. (2018). Use of Programmed Ventricular Extrastimulus During Supraventricular Tachycardia to Differentiate Atioventricular Nodeal Re-Entrant Tachycardia From Atrioventricular Reentrant Tachycardia. <em>JACC Clin Electrophysiol. 4(7):872-880</em></p>
+    </div>
+    <div class="col-1"></div>
+  </div>
+
+  <div class="row" style="max-width:100%">
+    <h3 class="mx-auto py-sm-3 pb-sm-4">2017</h3>
+  </div>
+  <div class="row" style="max-width:100%">
+    <div class="col-1"></div>
+    <div class="col-10">
+      <p>Szilagyi S, Marcus G, Badhwar N, Lee B, Lee R, Vedantham V, Tseng Z, Walters T, Scheinman M, Olgin J and Gerstenfeld EP. (2017). Atrial Fibrillation Patients with Isolated Pulmonary Veins: Is Sinus Rhythm Achievable? <em>Journal of Cardiac Electrophysiology. 28(7):754-761</em></p>
+    </div>
+    <div class="col-1"></div>
+  </div>
+  <div class="row" style="max-width:100%">
+    <div class="col-1"></div>
+    <div class="col-10">
+      <p>Guo X, Vittinghoff E, Vedantham V, Pletcher MJ, and Lee BK. (2017). Trends in Hospitalizations for Cardiac Sarcoidosis in the United States, 2005-2011. Circulation Journal. 81(11):1739-1741</p>
+    </div>
+    <div class="col-1"></div>
+  </div>
+
+  <div class="row" style="max-width:100%">
+    <h3 class="mx-auto py-sm-3 pb-sm-4">2016</h3>
+  </div>
+  <div class="row" style="max-width:100%">
+    <div class="col-1"></div>
+    <div class="col-10">
+      <p>Kawamura M, MM Scheinman, V Vedantham, GM Marcus, ZH Tseng, and N Badhwar. (2016). Clinical and Electrophysiological Characteristics of Incessant Atrioventricular Nodal Re-Entrant Tachycardia. JACC: Clinical Electrophysiology. 2(5):596-602</p>
+    </div>
+    <div class="col-1"></div>
+  </div>
+  <div class="row" style="max-width:100%">
+    <div class="col-1"></div>
+    <div class="col-10">
+      <p>Nguyen KT, Gladstone RA, Dukes JW, Nazer B, Vittinghoff E, Badhwar N, Vedantham V, Gerstenfeld EP, Lee BK, Tseng ZH, Olgin JE, Scheinman MM, and Marcus GM. (2016). The QT Interval as a Noninvasive Marker of Atrial Refractoriness. Pacing Clin Electrophysiol. 39(12):1366-1372</p>
+    </div>
+    <div class="col-1"></div>
+  </div>
+  <div class="row" style="max-width:100%">
+    <div class="col-1"></div>
+    <div class="col-10">
+      <p>Roberts JD, Gollob MH, Young C, Connors SP, Gray C, Wilton SB, Green MS, Zhu DW, Hodgkinson KA, Poon A, Li Q, Orr N, Tang AS, Klein GJ, Wojciak J, Campagna J, Olgin, JE, Badhwar N, Vedantham V, Marcus GM, Kwok P-Y, Deo RC, and Scheinman MM. (2016). Bundle Branch Re-Entrant Ventricular Tachycardia. Novel Genetic Mechanisms in a Life-Threatening Arrhythmia. JACC: Clinical Electrophysiology. 3(3):276-288</p>
+    </div>
+    <div class="col-1"></div>
+  </div>
+
+  <div class="row" style="max-width:100%">
+    <h3 class="mx-auto py-sm-3 pb-sm-4">2015</h3>
+  </div>
+  <div class="row" style="max-width:100%">
+    <div class="col-1"></div>
+    <div class="col-10">
+      <p>Hoffmayer KS, Lee BK, Vedantham V, Bhimani AA, Cakulev IT, Mackall JA, Sahadevan J, Rho RQ, Scheinman MM. (2015) Variable Clinical Features and Ablation of Manifest Nodofascicular/Ventricular Pathways. Circulation Arrhythmia and Electrophysiology. 8(1):117-27</p>
+    </div>
+    <div class="col-1"></div>
+  </div>
+  <div class="row" style="max-width:100%">
+    <div class="col-1"></div>
+    <div class="col-10">
+      <p>Vedantham V, G Galang, M Evangelista, RC Deo and D Srivastava. (2015). RNA Sequencing of Mouse Sinoatrial Node Reveals an Upstream Regulatory Role for Islet-1 in Cardiac Pacemaker Cells. Circulation Research. 116:797-803.</p>
+    </div>
+    <div class="col-1"></div>
+  </div>
+  <div class="row" style="max-width:100%">
+    <div class="col-1"></div>
+    <div class="col-10">
+      <p>Kawamura M, JC Hsu, V Vedantham, GM Marcus, HH Hsia, EP Gerstenfeld, MM Scheinman, and N Badhwar. (2015). Clinical and Electrocardiographic Characteristics of Idiopathic Ventricular Arrhythmias with Right Bundle Branch Block and Superior Axis-Comparison of apical crux area and posterior-septal left ventricle. Heart Rhythm. 12(6):1137-1144</p>
+    </div>
+    <div class="col-1"></div>
+  </div>
+  <div class="row" style="max-width:100%">
+    <div class="col-1"></div>
+    <div class="col-10">
+      <p>Ito H, Kawamura M, Badhwar N, Vedantham V, Tseng ZH, Lee BK, Lee RJ, Marcus GM, Gerstenfeld EP, and Scheinman MM. (2015). The Effect of Direct Current Stimulation versus T Wave Shock on Defibrillation Threshold Testing. Pacing and Clinical Electrophysiology. 38(10):1173-1180</p>
+    </div>
+    <div class="col-1"></div>
+  </div>
+  <div class="row" style="max-width:100%">
+    <div class="col-1"></div>
+    <div class="col-10">
+      <p>Vedantham V. (2015). New Approaches to Biological Pacemakers: Links to Sinoatrial Node Development. Trends in Molecular Medicine. 21(12):749-761</p>
+    </div>
+    <div class="col-1"></div>
+  </div>
+
+  <div class="row" style="max-width:100%">
+    <h3 class="mx-auto py-sm-3 pb-sm-4">2014</h3>
+  </div>
+  <div class="row" style="max-width:100%">
+    <div class="col-1"></div>
+    <div class="col-10">
+      <p>Kawamura M, Vedantham V, Dewland TA, Scheinman MM. (2014), Incessant long-RP tachycardia: What is the mechanism? Heart Rhythm. 2014. 11(5):904-6</p>
+    </div>
+    <div class="col-1"></div>
+  </div>
+  <div class="row" style="max-width:100%">
+    <div class="col-1"></div>
+    <div class="col-10">
+      <p>Kawamura M, Badhwar N, Vedantham V, Tseng ZH, Lee BK, Lee RJ, Marcus GM, Olgin JE, Gerstenfeld EP, Scheinman MM. Coupling Interval Dispersion and Body Mass Index are Independent Predictors of Idiopathic Premature Ventricular Complex Induced Cardiomyopathy. J Cardiovasc Electrophysiol. 25(7):756-62</p>
+    </div>
+    <div class="col-1"></div>
+  </div>
+  <div class="row" style="max-width:100%">
+    <div class="col-1"></div>
+    <div class="col-10">
+      <p>Stepanyan, G, Badhwar N, Lee RJ, Marcus GM, Lee BK, Tseng ZH, Vedantham V, Olgin J, Scheinman M, Gerstenfeld EP. Safety of new oral anticoagulants for patients undergoing atrial fibrillation ablation. J Interv Card Electrophysiol. 40(1):33-8</p>
+    </div>
+    <div class="col-1"></div>
+  </div>
+  <div class="row" style="max-width:100%">
+    <div class="col-1"></div>
+    <div class="col-10">
+      <p>Singh DK, Viswanathan MN, Tanel RE, Lee RJ, Lee BK, Marcus GM, Olgin JE, Han F, Vedantham V, Tseng ZH, Pellegrini C, Kawamura M, Gerstenfeld EP, Badhwar N, and Scheinman M. His Overdrive Pacing During Supraventricular Tachycardia: A Novel Maneuver for Distinguishing Atrioventricular Nodal Reentrant Tachycardia from Atrioventricular Reciporicating Tachycardia. Heart Rhythm. 11(8):1327-35</p>
+    </div>
+    <div class="col-1"></div>
+  </div>
+  <div class="row" style="max-width:100%">
+    <div class="col-1"></div>
+    <div class="col-10">
+      <p>Hua LL, Vedantham V, Barnes RM, Hu J, Robinson AS, Bressan M, Srivastava D, and Black BL. (2014) Specification of the mouse cardiac conduction system in the absence of Endothelin signaling. Developmental Biology. 393(2):245-54</p>
+    </div>
+    <div class="col-1"></div>
+  </div>
+  <div class="row" style="max-width:100%">
+    <div class="col-1"></div>
+    <div class="col-10">
+      <p>Kawamura M, Gerstenfeld EP, Vedantham V, Rodrigues DM, Burkhardt JD, Kobayashi Y, Hsia HH, Marcus GM, Marchlinkski FE, Scheinman MM, Badhwar N. (2014) Idiopathic Ventricular Arrhythmia Originating from the Cardiac Crux or Inferior Septum - An Epicardial Idiopathic Ventricular Arrhythmia. Circulation: Arrhythmia and Electrophysiology. 7(6):1152-8</p>
+    </div>
+    <div class="col-1"></div>
+  </div>
+  <div class="row" style="max-width:100%">
+    <div class="col-1"></div>
+    <div class="col-10">
+      <p>Judson MA, Costabel U, Drent M, Wells A, Maier L, Koth L, Shigemitsu H, Culver DA, Gelfand J, Valeyre D, Sweiss N, Crouser E, Morgenthau AS, Lower EE, Azuma A, Ishihara M, Morimoto S, Tetsuo Yamaguchi T, Shiiubo N, Grutters JC, Rosenbach M, Li HP, Rottoli P, Inoue Y, Prasse A, Baughman RP, Organ Assessment Instrument Investigators TW (includes Vedantham V). The WASOG Sarcoidosis Assessment Instrument: An update of a previous clinical tool. Sarcoidosis Vasc Diffuse Lung Dis. 2014. 18(1):19-27</p>
+    </div>
+    <div class="col-1"></div>
+  </div>
+
+  <div class="row" style="max-width:100%">
+    <h3 class="mx-auto py-sm-3 pb-sm-4">2013</h3>
+  </div>
+  <div class="row" style="max-width:100%">
+    <div class="col-1"></div>
+    <div class="col-10">
+      <p>Vedantham V, Evangelista M, Huang Y, and D Srivastava (2013). Spatiotemporal Regulation of an Hcn4 Enhancer Defines a Role for Mef2 and HDACs in Cardiac Electrical Patterning. Developmental Biology. 373(1):149-62</p>
+    </div>
+    <div class="col-1"></div>
+  </div>
+  <div class="row" style="max-width:100%">
+    <div class="col-1"></div>
+    <div class="col-10">
+      <p>Vedantham V, WM Jackman, and MM Scheinman. (2013). Unexpected Potential Following Ablation of a Right Atriofascicular Accessory Pathway. Journal of Cardiovascular Electrophysiology. 24(8):939-41</p>
+    </div>
+    <div class="col-1"></div>
+  </div>
+  <div class="row" style="max-width:100%">
+    <div class="col-1"></div>
+    <div class="col-10">
+      <p>Hsu JC, Badhwar N, Gerstenfeld EP, Lee RJ, Mandyam MC, Dewland TA, Imburgia KE, Hoffmayer KS, Vedantham V, Lee BK, Tseng ZH, Scheinman MM, Olgin JE, Marcus GM. A Randomized Trial of Conventional Transseptal Needle versus Radiofrequency Energy Needle Puncture for Left Atrial Access (The TRAVERSE-LA Study).  J Am Heart Assoc. 2013 Sep 17; 2(5)e000428.</p>
+    </div>
+    <div class="col-1"></div>
+  </div>
+
+  <div class="row" style="max-width:100%">
+    <h3 class="mx-auto py-sm-3 pb-sm-4">2012</h3>
+  </div>
+  <div class="row" style="max-width:100%">
+    <div class="col-1"></div>
+    <div class="col-10">
+      <p>Qian L, Y Huang, CI Spencer, A Foley, V Vedantham, L Liu, SJ Conway, J-D Fu, and D Srivastava (2012). In vivo reprogramming of murine cardiac fibroblasts into induced cardiomyocytes. Nature. 485:593-598</p>
+    </div>
+    <div class="col-1"></div>
+  </div>
+  <div class="row" style="max-width:100%">
+    <div class="col-1"></div>
+    <div class="col-10">
+      <p>Hsu JC, N Badhwar, BK Lee, V Vedantham, ZH Tseng, and GM Marcus (2012). Predictors of Fluoroscopy Time and Procedural Failure During Biventricular Device Implantation. American Journal of Cardiology. 110(2):240-245</p>
+    </div>
+    <div class="col-1"></div>
+  </div>
+  <div class="row" style="max-width:100%">
+    <div class="col-1"></div>
+    <div class="col-10">
+      <p>Mandyam  MC, V Vedantham , MM Scheinman,  ZH Tseng, N Badhwar, BK Lee, RJ Lee, EP Gerstenfeld, JE Olgin, and GM Marcus.  (2012). Alcohol and Vagal Tone as Triggers for Paroxysmal Atrial Fibrillation. American Journal of Cardiology. 110(3):364-368</p>
+    </div>
+    <div class="col-1"></div>
+  </div>
+
+  <div class="row" style="max-width:100%">
+    <h3 class="mx-auto py-sm-3 pb-sm-4">2011</h3>
+  </div>
+  <div class="row" style="max-width:100%">
+    <div class="col-1"></div>
+    <div class="col-10">
+      <p>Nguyen DR, JZ Wang, V  Vedantham, and N Badhwar (2011). Odynophagia after atrial fibrillation ablation. Circulation. 123(8):e253-e254 </p>
+    </div>
+    <div class="col-1"></div>
+  </div>
+
+  <div class="row" style="max-width:100%">
+    <h3 class="mx-auto py-sm-3 pb-sm-4">2010</h3>
+  </div>
+  <div class="row" style="max-width:100%">
+    <div class="col-1"></div>
+    <div class="col-10">
+      <p>Ieda M, JD Fu, P Delgado-Olguin, V Vedantham, Y Hayashi, BG Bruneau, and D Srivastava (2010) Direct Reprogramming of Fibroblasts into Functional Cardiomyocytes by Defined Factors. Cell. 142(3):375-386</p>
+    </div>
+    <div class="col-1"></div>
+  </div>
+
+  <div class="row" style="max-width:100%">
+    <h3 class="mx-auto py-sm-3 pb-sm-4">Before 2010</h3>
+  </div>
+  <div class="row" style="max-width:100%">
+    <div class="col-1"></div>
+    <div class="col-10">
+      <p>Zhao Y, JF Ransom, A Li, V Vedantham, M von Drehle, AN Muth, T Tsuchihashi, MT McManus, RJ Schwartz, and D Srivastava. (2007) Dysregulation of Cardiogenesis, Cardiac Conduction, and Cell Cycle in Mice Lacking miRNA-1-2. Cell. 129(2):303-317</p>
+    </div>
+    <div class="col-1"></div>
+  </div>
+  <div class="row" style="max-width:100%">
+    <div class="col-1"></div>
+    <div class="col-10">
+      <p>Vedantham V and SC Cannon. (2000) Rapid and Slow Voltage-Dependent Conformational Changes in Segment IVS6 of Voltage-Gated Na+ Channels. Biophysical Journal. 78(6): 2943-2958</p>
+    </div>
+    <div class="col-1"></div>
+  </div>
+  <div class="row" style="max-width:100%">
+    <div class="col-1"></div>
+    <div class="col-10">
+      <p>Vedantham V and SC Cannon. (1999) The Position of the Fast Inactivation Gate During Lidocaine Block of Voltage-Gated Na+ Channels. Journal of General Physiology. 113: 7-16</p>
+    </div>
+    <div class="col-1"></div>
+  </div>
+  <div class="row" style="max-width:100%">
+    <div class="col-1"></div>
+    <div class="col-10">
+      <p>Vedantham V and SC Cannon. (1998) Slow Inactivation Does Not Affect Movement of the Fast Inactivation Gate in Voltage-Gated Na+ Channels. Journal of General Physiology. 111: 83-93</p>
+    </div>
+    <div class="col-1"></div>
+  </div>
+  <div class="row" style="max-width:100%">
+    <div class="col-1"></div>
+    <div class="col-10">
+      <p>Stern CE, S Corkin, RG Gonzales, AR Guimaraes, JR Baker, PJ Jennings, CA Carr, RM Suguira, V Vedantham and BR Rosen. (1996) The hippocampal formation participates in novel picture encoding: Evidence from functional magnetic resonance imaging, Proc. Natl. Acad. Sci. 93: 8660 - 8665</p>
+    </div>
+    <div class="col-1"></div>
+  </div>
+  <div class="row" style="max-width:100%">
+    <div class="col-1"></div>
+    <div class="col-10">
+      <p>Shiner D, R Dixson and V Vedantham. (1995) Three Nucleon Charge Radius: A Precise Laser Determination Using Helium-3. Physical Review Letters. 74(18): 3553-7</p>
+    </div>
+    <div class="col-1"></div>
+  </div>
+</div>
+  <div class="row w-100 bg-darkish py-sm-5 text-light"></div>
+
 </body>
 </html>
