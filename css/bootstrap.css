@@ -396,6 +396,10 @@ h5, .h5 {
   font-size: 1.25rem;
 }
 
+h5.b, .h5.b {
+  visibility: hidden;
+}
+
 h6, .h6 {
   font-size: 1rem;
 }
@@ -10307,6 +10311,7 @@ a.text-dark:hover, a.text-dark:focus {
     orphans: 3;
     widows: 3;
   }
+ 
   h2,
   h3 {
     page-break-after: avoid;
