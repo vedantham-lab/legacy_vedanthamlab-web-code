@@ -43,6 +43,11 @@
   height: 85vh;
 }
 
+.p {
+  font-size: 30px;
+  font-size: 3.5vw;
+}
+
 .morespace {
   padding-left: 7rem;
   padding-right: 7rem;
