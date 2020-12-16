@@ -36,8 +36,8 @@
 }
 .jumbotron {
   color: white;
-  background-image: url("https://raw.githubusercontent.com/vedantham-lab/vedantham-lab.github.io/master/images/Isl1_Hcn4_SAN.jpg");
-  background-position: center;
+  background-image: url("https://raw.githubusercontent.com/vedantham-lab/vedantham-lab.github.io/master/images/2020_317145_CoverImage.jpg");
+  background-position: 50% 20%;
   background-repeat: no-repeat;
   background-size: cover;
   height: 85vh;
